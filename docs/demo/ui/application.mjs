@@ -173,7 +173,7 @@ export class DemoApplication {
       menu: () =>
         this.feedback.open(
           "Demo menu",
-          `<div class="action-stack">${button("About this demo", "about", "", "secondary")}${button("Restart with fresh examples", "reset-dialog", "", "secondary")}<a class="secondary" href="./demo-guide.html" target="_blank" rel="noopener">Presenter guide</a><a class="secondary" href="https://github.com/abhijithviswanathan/global-health-passport">Source & full app setup</a></div>`,
+          `<div class="action-stack">${button("About this demo", "about", "", "secondary")}${button("Restart with fresh examples", "reset-dialog", "", "secondary")}<a class="secondary" href="./demo-guide.html" target="_blank" rel="noopener">Presenter guide</a><a class="secondary" href="https://github.com/abhijith-abhii/global-health-passport">Source & full app setup</a></div>`,
         ),
       "reset-dialog": () => {
         this.feedback.close();
@@ -293,7 +293,7 @@ export class DemoApplication {
   aboutDialog() {
     this.feedback.open(
       "A connected care demonstration",
-      `<p>Explore five perspectives with four invented patient stories. Actions share state within this browser tab, so a doctor’s request becomes a nurse’s task or a patient’s decision.</p><div class="callout"><strong>This GitHub Pages site is a public presentation.</strong><p>It has no real login, server, medical decision support, uploads or persistent records. Role switching is a demonstration control. All fixtures are public, including information hidden by simulated consent.</p></div><p>The full local application and its separate web/mobile setup are available in the repository. Refreshing or resetting this demo restores the examples.</p><div class="buttonrow"><a class="primary" href="./demo-guide.html" target="_blank" rel="noopener">Read the presenter guide</a><a class="secondary" href="https://github.com/abhijithviswanathan/global-health-passport">Source on GitHub</a></div>`,
+      `<p>Explore five perspectives with four invented patient stories. Actions share state within this browser tab, so a doctor’s request becomes a nurse’s task or a patient’s decision.</p><div class="callout"><strong>This GitHub Pages site is a public presentation.</strong><p>It has no real login, server, medical decision support, uploads or persistent records. Role switching is a demonstration control. All fixtures are public, including information hidden by simulated consent.</p></div><p>The full local application and its separate web/mobile setup are available in the repository. Refreshing or resetting this demo restores the examples.</p><div class="buttonrow"><a class="primary" href="./demo-guide.html" target="_blank" rel="noopener">Read the presenter guide</a><a class="secondary" href="https://github.com/abhijith-abhii/global-health-passport">Source on GitHub</a></div>`,
     );
   }
 }

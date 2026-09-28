@@ -12,7 +12,7 @@ A synthetic healthcare workflow platform connecting patient records and consent 
 
 Start with the [developer handover](docs/HANDOVER.md) for setup, code-reading order, feature ownership, API/data conventions and safe change examples. The [source map](docs/SOURCE_MAP.md) links the backend, shared logic, web/mobile workspaces and scripts. Application modules include comments explaining their responsibilities and important workflow rules. The [code architecture guide](docs/CODE_ARCHITECTURE.md) explains the service/repository, strategy, command and composition patterns, with examples for extending them. See the [refactor report](docs/REFACTOR_VERIFICATION.md) for scope and checks.
 
-The [public GitHub Pages demo](https://abhijithviswanathan.github.io/global-health-passport/) is a connected, fictional presentation with doctor, nurse, patient, pharmacy and laboratory perspectives. Start the nine-step Alice story to show sharing requests, nursing work, prescription directions and collection, reports, messages and follow-up. It has no backend or real login; changes last only in the current tab. See the [illustrated presenter guide](https://abhijithviswanathan.github.io/global-health-passport/demo-guide.html) and [demo walkthrough](docs/DEMO_WALKTHROUGH.md). Changing the full application does not automatically change this demo.
+The [public GitHub Pages demo](https://abhijith-abhii.github.io/global-health-passport/) is a connected, fictional presentation with doctor, nurse, patient, pharmacy and laboratory perspectives. Start the nine-step Alice story to show sharing requests, nursing work, prescription directions and collection, reports, messages and follow-up. It has no backend or real login; changes last only in the current tab. See the [illustrated presenter guide](https://abhijith-abhii.github.io/global-health-passport/demo-guide.html) and [demo walkthrough](docs/DEMO_WALKTHROUGH.md). Changing the full application does not automatically change this demo.
 
 ## What is implemented
 
@@ -53,7 +53,7 @@ The backend is a modular monolith with JDBC and Flyway migrations V1–V18. Both
 Install Java 21, Node.js 24 with npm, and Python 3.12 or newer. First installation needs internet access. Clone the repository and run from its root:
 
 ```sh
-git clone https://github.com/abhijithviswanathan/global-health-passport.git
+git clone https://github.com/abhijith-abhii/global-health-passport.git
 cd global-health-passport
 python3.12 scripts/dev.py --install
 ```

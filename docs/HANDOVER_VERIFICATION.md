@@ -33,4 +33,4 @@ The source comparisons are maintenance checks against the baseline, not new runt
 
 No fixture-seeding scripts were executed against an existing local database for this revision. Python parsing/AST comparison checks preservation without triggering their side effects. No new full-app browser E2E run, physical iOS/Android test, native bundle export or real photo-hardware check is claimed.
 
-The repository's [verification workflow](../.github/workflows/ci.yml) runs on push and supplies a real PostgreSQL service. Its result belongs to the commit shown in [GitHub Actions](https://github.com/abhijithviswanathan/global-health-passport/actions), separately from the local results above. GitHub Pages also runs its own deployment for the formatted demo.
+The repository's [verification workflow](../.github/workflows/ci.yml) runs on push and supplies a real PostgreSQL service. Its result belongs to the commit shown in [GitHub Actions](https://github.com/abhijith-abhii/global-health-passport/actions), separately from the local results above. GitHub Pages also runs its own deployment for the formatted demo.

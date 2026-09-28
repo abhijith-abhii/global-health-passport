@@ -32,7 +32,7 @@ The illustrated presenter guide is at [`demo-guide.html`](demo-guide.html), with
 | Visual review | Doctor overview, nursing queue and patient prescription screenshots inspected. Presenter-guide screenshots contain only public fictional examples. |
 | Diff hygiene | Whitespace checks passed; no credentials, private records, dependency folders or generated configuration included. |
 
-Run commands and required browser setup are in the walkthrough. Browser verification can target the published site with `DEMO_BASE_URL=https://abhijithviswanathan.github.io/global-health-passport/`.
+Run commands and required browser setup are in the walkthrough. Browser verification can target the published site with `DEMO_BASE_URL=https://abhijith-abhii.github.io/global-health-passport/`.
 
 ## Boundaries
 

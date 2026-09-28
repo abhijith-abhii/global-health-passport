@@ -39,7 +39,7 @@ An initial combined browser run reached the existing five-registration rate limi
 
 The [architecture guide](CODE_ARCHITECTURE.md#verification-commands) lists local commands. Root `scripts/tests/*.test.mjs` includes the public demo and shared regression suites; it needs the installed web TypeScript dependency. The native suite also exercises its adapter with the test-only local TypeScript loader.
 
-[GitHub verification runs](https://github.com/abhijithviswanathan/global-health-passport/actions/workflows/ci.yml) execute Java with a disposable PostgreSQL service, all root regression tests, demo/shared lint, web types/lint/build and mobile types/tests. Inspect the run matching the published commit for hosted results. The separate Pages build publishes `main` → `/docs` at the [live demonstration](https://abhijithviswanathan.github.io/global-health-passport/).
+[GitHub verification runs](https://github.com/abhijith-abhii/global-health-passport/actions/workflows/ci.yml) execute Java with a disposable PostgreSQL service, all root regression tests, demo/shared lint, web types/lint/build and mobile types/tests. Inspect the run matching the published commit for hosted results. The separate Pages build publishes `main` → `/docs` at the [live demonstration](https://abhijith-abhii.github.io/global-health-passport/).
 
 ## Boundaries
 

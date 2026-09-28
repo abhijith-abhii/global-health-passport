@@ -9,7 +9,7 @@ Start here when taking over part of Health Passport. The repository contains a f
 | Full web app | [`apps/web/app/page.tsx`](../apps/web/app/page.tsx) | React UI backed by Java sessions, permissions and persisted records |
 | Mobile app | [`apps/mobile/App.tsx`](../apps/mobile/App.tsx) | Expo/React Native UI using the same Java API |
 | Backend | [`Application.java`](../apps/backend/src/main/java/org/healthpassport/Application.java) | Spring Boot controllers, JDBC storage and Flyway migrations |
-| Public presentation | [`docs/index.html`](index.html) | Standalone fictional demo on [GitHub Pages](https://abhijithviswanathan.github.io/global-health-passport/); no real login, backend, uploads or persistent edits |
+| Public presentation | [`docs/index.html`](index.html) | Standalone fictional demo on [GitHub Pages](https://abhijith-abhii.github.io/global-health-passport/); no real login, backend, uploads or persistent edits |
 
 Changing the full web app does **not** update the Pages demo. Editing the demo does **not** change the full app. The demo is intentionally independent because GitHub Pages only serves its static files. Keep it labelled as fictional, including any new examples.
 
@@ -19,7 +19,7 @@ Install Java 21, Node.js 24 with npm, Python 3.12 or newer, and Git. Use the che
 
 ```sh
 # Clone once, then work from this directory.
-git clone https://github.com/abhijithviswanathan/global-health-passport.git
+git clone https://github.com/abhijith-abhii/global-health-passport.git
 cd global-health-passport
 
 # Creates private local configuration, prepares the photo checker, installs the
