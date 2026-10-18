@@ -2,7 +2,7 @@
 
 A synthetic healthcare workflow platform connecting patient records and consent with care teams, clinical orders, and hospital operations across web and mobile clients.
 
-**Portfolio context:** Abhijith Viswanathan directed development using AI. This repository demonstrates the resulting implementation and engineering decisions; it does not imply that every component was independently coded by its owner. It is a local prototype using fictional data, with no live-patient deployment or compliance certification.
+**Personal project by Abhijith Viswanathan.** A healthcare prototype connecting consent-controlled records, care teams and clinical workflows across web and mobile. Demonstrations use fictional data; there is no live-patient deployment or compliance certification.
 
 [Architecture](docs/ARCHITECTURE.md) · [Portfolio review and current verification](docs/PORTFOLIO_REVIEW.md) · [Illustrated guide](README_USER_GUIDE.md) · [Engineering decisions](ADRs)
 
@@ -143,3 +143,7 @@ An 8-client local HTTP workload completed **2,400 validated requests**, with **3
 ## Connect
 
 [LinkedIn — Abhijith Viswanathan](https://www.linkedin.com/in/abhijith-viswanathan-0a7216436/)
+
+## Development notes
+
+AI tools assisted with implementation, tests and documentation. This is my personal portfolio work; benchmark results and deployment boundaries are documented in the repository.
