@@ -1,0 +1,62 @@
+{
+  "date_utc": "2026-10-18T10:36:51.303652+00:00",
+  "project": "health-passport",
+  "source_commit": "50ee43445eb87ec338959ae283be708281c068eb",
+  "environment": {
+    "os": "Darwin",
+    "os_release": "25.2.0",
+    "architecture": "arm64",
+    "python": "3.12.14",
+    "cpu_count": 12,
+    "database": "H2 in-memory, synthetic demo seed",
+    "java": "openjdk version \"21.0.6\" 2025-01-21 LTS"
+  },
+  "scope": "Synthetic local loopback HTTP benchmark. Not production capacity, real users, clinical validation or user growth.",
+  "concurrency": 8,
+  "requests_per_round": 800,
+  "rounds": 3,
+  "warmup_requests": 40,
+  "workload": "Authenticated reads of one synthetic patient timeline; shared session; login excluded; no network, disk database or native client benchmark.",
+  "http_rounds": [
+    {
+      "count": 800,
+      "median_ms": 1.835,
+      "p95_ms": 4.027,
+      "min_ms": 0.414,
+      "max_ms": 6.052,
+      "elapsed_seconds": 0.226,
+      "requests_per_second": 3542.96,
+      "failed_requests": 0
+    },
+    {
+      "count": 800,
+      "median_ms": 1.304,
+      "p95_ms": 2.894,
+      "min_ms": 0.314,
+      "max_ms": 4.169,
+      "elapsed_seconds": 0.164,
+      "requests_per_second": 4863.43,
+      "failed_requests": 0
+    },
+    {
+      "count": 800,
+      "median_ms": 0.95,
+      "p95_ms": 2.228,
+      "min_ms": 0.245,
+      "max_ms": 3.7,
+      "elapsed_seconds": 0.128,
+      "requests_per_second": 6250.42,
+      "failed_requests": 0
+    }
+  ],
+  "http_summary": {
+    "count": 2400,
+    "median_ms": 1.317,
+    "p95_ms": 3.295,
+    "min_ms": 0.245,
+    "max_ms": 6.052,
+    "median_round_requests_per_second": 4863.43,
+    "failed_requests": 0,
+    "total_measured_requests": 2400
+  }
+}

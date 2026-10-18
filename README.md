@@ -135,3 +135,7 @@ Dockerfiles and Compose are provided as a development option. Docker execution w
 - [Threat model](docs/THREAT_MODEL.md), [security](docs/SECURITY.md), [AI boundary](docs/AI_SAFETY.md)
 - [Client parity](docs/PLATFORM_PARITY.md), [test documentation](docs/TESTING.md), [full scope traceability](docs/MASTER_TRACEABILITY.md)
 - [Portfolio review, contribution and interview notes](docs/PORTFOLIO_REVIEW.md)
+
+## Local performance measurements
+
+An 8-client local HTTP workload completed **2,400 validated requests**, with **3.295 ms p95 latency**. These are synthetic local measurements, not production users or service guarantees. See the [workload, reproducible script and complete results](benchmarks/README.md).
