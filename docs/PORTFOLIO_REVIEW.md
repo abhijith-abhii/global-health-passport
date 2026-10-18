@@ -4,7 +4,7 @@ Review date: September 11, 2026 (America/New_York).
 
 ## Contribution and history
 
-Abhijith Viswanathan directed the original project using AI. The initial local Git history was preserved, and existing uncommitted platform revisions were captured separately before portfolio edits. The portfolio task then reviewed the architecture and implemented modules, documented the project for a new reader, ran verification and corrected test/setup reliability issues. This does not establish independent implementation proficiency, production use or external clinical validation.
+Global Health Passport is a personal project by Abhijith Viswanathan, built with AI-assisted development tools. The initial local Git history was preserved, and existing uncommitted platform revisions were captured separately before portfolio edits. The portfolio task then reviewed the architecture and implemented modules, documented the project for a new reader, ran verification and corrected test/setup reliability issues. The prototype has no production deployment or external clinical validation.
 
 ## Review coverage
 
@@ -53,7 +53,7 @@ The root one-command launch was inspected but not replayed end to end in a fresh
 
 **Timezone failure:** the test once assumed tomorrow in the host timezone was tomorrow in UTC. An injected clock makes the reference day reproducible. The tests cover future, effective, expired and boundary-day policies using fictional insurance only.
 
-**AI contribution:** a truthful introduction is: “I directed this prototype using AI. I can demonstrate the workflow and am building my ability to trace and extend the implementation.” Claim specific coding ownership only for parts you have personally reviewed and changed.
+**Development notes:** Built as my personal healthcare prototype with AI-assisted implementation, tests and documentation. The repository explains the workflows, architecture and verification evidence.
 
 ## Known limitations
 
